@@ -1,0 +1,22 @@
+body{
+    background-color: #2d2d2d;
+    color: #cacaca;
+}
+#transcription{
+    background-color: #161515;
+    color: #cacaca;
+}
+.container{
+    display: flex;
+    width: 80%;
+
+}
+.container-btn{
+    display: flex;
+}
+@media screen and (max-width:750px) {
+    .textarea{
+        order: -1;
+    }
+    
+}
